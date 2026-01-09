@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Pedro Godoy - Senior Software Engineer"
+        />
+        <title>Pedro Godoy</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, sans-serif;
+                background-color: #111;
+                color: #e0e0e0;
+                line-height: 1.6;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem;
+            }
+
+            .container {
+                max-width: 600px;
+                text-align: center;
+            }
+
+            .photo {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 1.5rem;
+            }
+
+            .bio {
+                text-align: left;
+                margin-bottom: 2rem;
+            }
+
+            .bio p {
+                margin-bottom: 1rem;
+                color: #b0b0b0;
+            }
+
+            .bio p:last-child {
+                margin-bottom: 0;
+            }
+
+            .links {
+                display: flex;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+
+            .links a {
+                color: #888;
+                text-decoration: none;
+                font-size: 0.9rem;
+                transition: color 0.2s;
+            }
+
+            .links a:hover {
+                color: #fff;
+            }
+
+            @media (max-width: 480px) {
+                body {
+                    padding: 1.5rem;
+                }
+
+                .photo {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                h1 {
+                    font-size: 1.5rem;
+                }
+
+                .links {
+                    flex-direction: column;
+                    gap: 0.75rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <img src="profile.webp" alt="Pedro Godoy" class="photo" />
+            <h1>Pedro Godoy</h1>
+            <div class="bio">
+                <p>
+                    I'm a Senior Software Engineer focused on building systems
+                    that run without babysitting. I care about services that are
+                    observable, resilient, and easy for the next engineer to
+                    understand, operate, and evolve.
+                </p>
+                <p>
+                    I currently work at Cellanome, a fast-growing biotech
+                    startup, where I own the design and delivery of full-stack
+                    services supporting research operations while scaling
+                    systems under real growth and production pressure.
+                    Previously, I spent three years at Nuage, a software house
+                    where I worked with multiple clients, primarily in the
+                    telecommunications sector, and grew from junior to senior
+                    across different systems and teams.
+                </p>
+                <p>
+                    My experience spans banking, telecommunications, and
+                    biotech, building and operating production systems in both
+                    regulated and high-availability environments. My technical
+                    home is serverless and event-driven systems on AWS using
+                    TypeScript and Go. I've led external integrations, owned
+                    production incidents, and mentored engineers through their
+                    first architecture decisions. I value predictable, boring
+                    code and teams that prioritize ownership over process.
+                </p>
+            </div>
+            <nav class="links">
+                <a href="https://www.linkedin.com/in/pedrobgodoy/">LinkedIn</a>
+                <a href="https://github.com/pedrobgodoy">GitHub</a>
+                <a href="mailto:pedrohenrique.godoy@outlook.com">Email</a>
+            </nav>
+        </main>
+    </body>
+</html>
